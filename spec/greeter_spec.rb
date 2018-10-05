@@ -5,3 +5,9 @@ describe Greeter do
     expect(subject).to respond_to(:greet)
   end
 end
+
+describe Greeter do
+  it 'Greeter greets "David"' do
+    expect(subject).to eq "Hello, David"
+  end
+end
